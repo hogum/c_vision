@@ -11,7 +11,7 @@ def read_img():
     """
         Reads image file and change color format
     """
-    img = cv2.imread('media/learn-colors.jpg')
+    img = cv2.imread('.media/learn-colors.jpg')
     # print(img.shape)
     # cv2.imshow('ImageWindow', img)
     # cv2.waitKey()
